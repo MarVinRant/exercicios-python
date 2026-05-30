@@ -7,4 +7,4 @@ import math
 num  = float(input("Digite um valor: "))
 porcao_inteira = math.trunc(num)
 
-print(f"O valor ditado foi {num} e a sua porção inteira é {porcao_inteira}.")
+print(f"O valor digitado foi {num} e a sua porção inteira é {porcao_inteira}.")
