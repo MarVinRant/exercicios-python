@@ -8,6 +8,6 @@ alu3 = input("Nome do terceiro aluno: ")
 alu4 = input("Nome do quarto aluno: ")
 
 alunos = [alu1, alu2, alu3, alu4]
-escolhiido = random.choice(alunos)
+escolhido = random.choice(alunos) #choice escolhe um elemento aleatório de dentro de uma lista.
 
-print(f"O aluno escolhido para apagar o quadro foi: {escolhiido}")
+print(f"O aluno escolhido para apagar o quadro foi: {escolhido}")
