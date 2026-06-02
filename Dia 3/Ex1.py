@@ -7,6 +7,8 @@ computador = randint(0, 5)
 jogador = int(input('Tente adivinhar o número que pensei (de 0 até 5): '))
 
 if jogador == computador:
-    print('Parabens você venceu!')
+    # Adicionando \033[32m no início (Verde) e \033[m no final (Limpa)
+    print('\033[32mParabens você venceu!\033[m')
 else:
-    print(f'Você perdeu! O número que pensei foi {computador}.')
+    # Adicionando \033[31m no início (Vermelho) e \033[m no final (Limpa)
+    print(f'\033[31mVocê perdeu! O número que pensei foi {computador}.\033[m')
