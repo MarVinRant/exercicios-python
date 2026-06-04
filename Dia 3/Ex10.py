@@ -12,4 +12,4 @@ minimo = salario * 0.3
 if prestacao <= minimo:
     print('\033[32mEmprestimo APROVADO!\033[m')
 else:
-    print('\033[31mEmprestimo NEGADDO!\033[m')
+    print('\033[31mEmprestimo NEGADO!\033[m')
